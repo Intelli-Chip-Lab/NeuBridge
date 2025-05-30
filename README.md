@@ -1,5 +1,5 @@
-# NB-SNN
-This repo holds the codes for NB-SNN.
+# NeuBridge
+This repo holds the codes for NeuBridge.
 
 ## Dependencies
 * Python 3.8.10
@@ -86,4 +86,4 @@ Example: AlexNEt (SNN) performance with signed IF neuron model. A 3/2-bit ANN is
 python snn.py -a alexnet -b 256 -e --bit 3 --init result/alexnet_3bit/model_best.pth.tar --workers 4 --dali_cpu /data/imagenet2012
 python snn.py -a alexnet -b 256 -e --bit 2 --init result/alexnet_2bit/model_best.pth.tar --workers 4 --dali_cpu /data/imagenet2012
 ```
-# NB-SNN
+# NeuBridge
